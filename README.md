@@ -5,4 +5,4 @@ This is a rudimentary Login Module written with PHP and utilizing Ajax functiona
 Currently this module is configured to use a Docker Container
 
 
-*See Dev Branch for Latest updates
+*See Dev Branch for any possable latest updates
