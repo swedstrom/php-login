@@ -1,0 +1,8 @@
+#Using docker build to setup a local image v 1.0 with the local Dockerfile
+
+	docker build -t regme-php-apache:1.0 .
+
+#Dockerfile to load the php and apache
+
+# Add volume to be mounted in the containe
+	docker run --name regme -p 83:80 -v /docker/scr/regme/html:/var/www/html regme-php-apache:1.0

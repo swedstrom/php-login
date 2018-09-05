@@ -1,0 +1,130 @@
+.status-available{color:#2FC332;}
+.status-not-available{color:#D60202;}
+body {
+  background: #A9D9C3;
+}
+#register_form h1 {
+  text-align: center;
+}
+#register_form {
+  width: 60%;
+  margin: 100px auto;
+  padding-bottom: 30px;
+  border: 1px solid #918274;
+  border-radius: 5px;
+  background: white;
+}
+#register_form input {
+  width: 80%;
+  height: 35px;
+  margin: 5px 10%;
+  font-size: 1.1em;
+  padding: 4px;
+  font-size: .9em;
+}
+#reg_btn {
+  height: 35px;
+  width: 20%;
+  margin: 5px 10%;
+  color: white;
+  background: #3B5998;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+
+}
+/*Styling for errors on form*/
+.form_error info1 {
+  width: 80%;
+  height: 35px;
+  margin: 3px 10%;
+  font-size: 1.1em;
+  color: #D83D5A;
+}
+.form_error input {
+  border: 1px solid #D83D5A;
+}
+
+/*Styling in case no errors on form*/
+.form_success span {
+  width: 90%;
+  height: 35px;
+  margin: 3px 10%;
+  font-size: 1.1em;
+  color: green;
+}
+.form_success input {
+  border: 1px solid green;
+}
+#error_msg {
+  color: red;
+  text-align: center;
+  margin: 10px auto;
+}
+/* DivTable */
+.divTable{
+    display: table;
+    width: 100%;
+}
+.divTableRow {
+    display: table-row;
+}
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+}
+.divTableCell1, .divTableHead {
+    border: 0px solid #999999;
+    display: table-cell;
+    width: 25%;
+    height: 3em;
+}
+.divTableCell2, .divTableHead {
+    border: 0px solid #999999;
+    display: table-cell;
+    font-family:arial;
+    font-weight:bold;
+    vertical-align: center;
+    width: 25%;
+    font-size: 12px;
+    height: 3em;
+    
+}
+
+.divTableCell3, .divTableHead {
+    border: 0px solid #999999;
+    display: table-cell;
+    font-family:arial;
+    font-weight:bold;
+    vertical-align: center;
+    width: 25%;
+    font-size: 12px;
+    height: 3em;
+    
+}
+
+.divTableCell4, .divTableHead {
+    border: 0px solid #999999;
+    display: table-cell;
+    font-family:arial;
+    font-weight:bold;
+    vertical-align: center;
+    width: 25%;
+    font-size: 12px;
+    height: 3em;
+    
+}
+
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+    font-weight: bold;
+}
+.divTableFoot {
+    background-color: #EEE;
+    display: table-footer-group;
+    font-weight: bold;
+}
+.divTableBody {
+    display: table-row-group;
+
