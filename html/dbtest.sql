@@ -21,7 +21,7 @@ SET time_zone = "+00:00";
 --
 
 -- 
--- Used for php-login php module
+-- Used for php-login php module // 9-4-18
 --
 -- --------------------------------------------------------
 
