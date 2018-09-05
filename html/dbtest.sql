@@ -20,6 +20,9 @@ SET time_zone = "+00:00";
 -- Database: `dbtest`
 --
 
+-- 
+-- Used for php-login php module
+--
 -- --------------------------------------------------------
 
 --
